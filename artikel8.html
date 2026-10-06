@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begini Syaikh Abdul Qadir Memahami Kembali dari Jihad Kecil, Menuju Jihad Besar - KALAM</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5f0;
+            color: #333;
+            min-height: 100vh;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            padding: 20px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-kalam {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #e94560;
+            letter-spacing: 5px;
+            text-decoration: none;
+            text-shadow: 0 0 10px rgba(233, 69, 96, 0.5);
+            transition: all 0.3s ease;
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+
+        .logo-kalam:hover {
+            background: rgba(233, 69, 96, 0.15);
+            transform: scale(1.05);
+        }
+
+        .logo-kalam span { color: #fff; }
+
+        nav { display: flex; gap: 15px; }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover { background: #e94560; color: #fff; }
+
+        .breadcrumb {
+            padding: 15px 40px;
+            background: #eee;
+            font-size: 0.85rem;
+            color: #777;
+        }
+
+        .breadcrumb a { color: #e94560; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+
+        .article-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .article-header { margin-bottom: 30px; }
+
+        .article-header h1 {
+            font-size: 2.2rem;
+            color: #1a1a2e;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            color: #888;
+            font-size: 0.9rem;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .author { display: flex; align-items: center; gap: 8px; }
+
+        .author-avatar {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #e94560, #c23152);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        .author-name { font-weight: bold; color: #333; }
+        .meta-date { color: #999; }
+
+        .article-image-wrapper {
+            margin: 25px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            position: relative;
+        }
+
+        .article-image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .article-image-wrapper:hover img { transform: scale(1.02); }
+
+        .image-caption {
+            background: rgba(0,0,0,0.7);
+            color: #ccc;
+            padding: 10px 15px;
+            font-size: 0.8rem;
+        }
+
+        .share-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .share-bar span { font-size: 0.85rem; color: #888; margin-right: 5px; }
+
+        .share-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn.fb { background: #3b5998; }
+        .share-btn.tw { background: #1da1f2; }
+        .share-btn.wa { background: #25d366; }
+        .share-btn.tg { background: #0088cc; }
+
+        .share-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .font-size-controls { margin-left: auto; display: flex; gap: 5px; }
+
+        .font-btn {
+            width: 32px;
+            height: 32px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #fff;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .font-btn:hover {
+            background: #e94560;
+            color: #fff;
+            border-color: #e94560;
+        }
+
+        .article-content {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #444;
+        }
+
+        .article-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .article-content .lead {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: #1a1a2e;
+            border-left: 4px solid #e94560;
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        .article-content blockquote {
+            background: #f0f0eb;
+            border-left: 4px solid #e94560;
+            padding: 20px 25px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        .article-content h2 {
+            font-size: 1.5rem;
+            color: #1a1a2e;
+            margin: 35px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e94560;
+        }
+
+        .article-content h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 25px 0 10px;
+        }
+
+        .arabic-box {
+            background: linear-gradient(135deg, #f8f6f0 0%, #f0ede5 100%);
+            border: 2px solid #d4af37;
+            border-radius: 12px;
+            padding: 30px 25px;
+            margin: 25px 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+            position: relative;
+        }
+
+        .arabic-box::before {
+            content: '﷽';
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f8f6f0;
+            padding: 0 15px;
+            font-size: 1.5rem;
+            color: #d4af37;
+        }
+
+        .arabic-text {
+            font-family: 'Traditional Arabic', 'Scheherazade', 'Amiri', serif;
+            font-size: 1.8rem;
+            line-height: 2.8;
+            color: #1a1a2e;
+            direction: rtl;
+            margin: 15px 0;
+        }
+
+        .arabic-translation {
+            font-size: 0.95rem;
+            color: #666;
+            font-style: italic;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed #d4af37;
+        }
+
+        .arabic-label {
+            display: inline-block;
+            background: #d4af37;
+            color: #fff;
+            padding: 4px 15px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .jihad-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8f6f0 100%);
+            border: 1px solid #e0ddd5;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-left: 5px solid #e94560;
+        }
+
+        .jihad-number {
+            display: inline-block;
+            background: linear-gradient(135deg, #e94560, #c23152);
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-right: 10px;
+        }
+
+        .jihad-title {
+            font-size: 1.3rem;
+            color: #1a1a2e;
+            font-weight: bold;
+            display: inline;
+        }
+
+        .jihad-arabic {
+            font-family: 'Traditional Arabic', 'Scheherazade', 'Amiri', serif;
+            font-size: 1.6rem;
+            color: #d4af37;
+            direction: rtl;
+            margin: 10px 0;
+            text-align: right;
+        }
+
+        .article-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 15px;
+        }
+
+        .article-nav-btn {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid #e94560;
+            background: rgba(233, 69, 96, 0.1);
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .article-nav-btn:hover {
+            background: #e94560;
+            transform: scale(1.15);
+            box-shadow: 0 5px 20px rgba(233, 69, 96, 0.5);
+        }
+
+        .article-nav-btn.active {
+            background: #e94560;
+            box-shadow: 0 0 20px rgba(233, 69, 96, 0.6);
+        }
+
+        .nav-btn-label {
+            text-align: center;
+            color: #aaa;
+            font-size: 0.8rem;
+            margin-top: 8px;
+        }
+
+        .nav-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .kalam-back-btn {
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            padding: 18px 50px;
+            background: linear-gradient(135deg, #e94560, #c23152);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 35px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            letter-spacing: 4px;
+            transition: all 0.4s ease;
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.4);
+            max-width: 350px;
+        }
+
+        .kalam-back-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(233, 69, 96, 0.6);
+            background: linear-gradient(135deg, #ff6b81, #e94560);
+            letter-spacing: 6px;
+        }
+
+        .kalam-back-btn .btn-sub {
+            display: block;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            margin-top: 5px;
+            opacity: 0.8;
+            font-weight: normal;
+        }
+
+        footer {
+            background: #1a1a2e;
+            color: #888;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        footer span { color: #e94560; }
+
+        @media (max-width: 600px) {
+            header { flex-direction: column; gap: 10px; padding: 15px 20px; }
+            .article-container { padding: 0 15px; }
+            .article-header h1 { font-size: 1.5rem; }
+            .article-content { font-size: 0.95rem; }
+            .arabic-text { font-size: 1.4rem; line-height: 2.4; }
+            .jihad-arabic { font-size: 1.3rem; }
+            .article-nav { gap: 15px; }
+            .article-nav-btn { width: 55px; height: 55px; font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo-kalam" title="Kembali ke Beranda">
+            <span>K</span>ALAM
+        </a>
+        <nav>
+            <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/">Beranda</a>
+            <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/artikel.html">Artikel</a>
+        </nav>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/">Beranda</a> &raquo; <a href="https://masjidalikhlaskebagusan99-dotcom.github.io/Masjid-Al-Ikhlas/artikel.html">Artikel</a> &raquo; Jihad Kecil & Jihad Besar
+    </div>
+
+    <div class="article-container">
+
+        <div class="article-header">
+            <h1>Begini Syaikh Abdul Qadir Memahami Kembali dari Jihad Kecil, Menuju Jihad Besar</h1>
+            <div class="article-meta">
+                <div class="author">
+                    <div class="author-avatar">MY</div>
+                    <div>
+                        <div class="author-name">DKM Masjid Jami' Al-Ikhlas Kebagusan</div>
+                        <div class="meta-date">Senin, 05 Oktober 2026, 20:30 WIB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-image-wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Abdul_Qadir_Jilani.jpg/440px-Abdul_Qadir_Jilani.jpg"
+                 alt="Potret Syaikh Abdul Qadir Al-Jilani">
+            <div class="image-caption">Sumber: kalam.web.id — Potret Syaikh Abdul Qadir Al-Jilani</div>
+        </div>
+
+        <div class="share-bar">
+            <span>Bagikan:</span>
+            <a href="#" class="share-btn fb">f</a>
+            <a href="#" class="share-btn tw">𝕏</a>
+            <a href="#" class="share-btn wa">W</a>
+            <a href="#" class="share-btn tg">T</a>
+            <div class="font-size-controls">
+                <button class="font-btn" onclick="changeFontSize(-1)">A-</button>
+                <button class="font-btn" onclick="changeFontSize(1)">A+</button>
+            </div>
+        </div>
+
+        <div class="article-content" id="articleContent">
+
+            <p class="lead">
+                Syaikh Abdul Qadir Al-Jilani (470-561 H / 1077-1166 M) dalam kitabnya <em>"Al-Ghunya li-Thalibi Tariq al-Haqq"</em> menjelaskan tentang konsep jihad kecil (jihad al-asghar) dan jihad besar (jihad al-akbar). Pemahaman beliau tentang kedua jenis jihad ini sangat mendalam dan memberikan panduan spiritual yang berharga bagi setiap Muslim yang ingin menempuh jalan menuju Allah SWT.
+            </p>
+
+            <h2>Hadits tentang Jihad Kecil dan Jihad Besar</h2>
+
+            <p>
+                Dalam sebuah riwayat yang masyhur, Nabi Muhammad SAW bersabda setelah kembali dari suatu peperangan:
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">HADITS JIHAD KECIL DAN JIHAD BESAR</div>
+                <div class="arabic-text">
+                    رَجَعْنَا مِنَ الْجِهَادِ الْأَصْغَرِ إِلَى الْجِهَادِ الْأَكْبَرِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Kami telah kembali dari jihad kecil menuju jihad besar."
+                </div>
+            </div>
+
+            <p>
+                Para sahabat bertanya dengan penuh keheranan: "Apa yang dimaksud dengan jihad besar, ya Rasulullah? Bukankah kita baru saja kembali dari medan perang?"
+            </p>
+
+            <p>
+                Nabi Muhammad SAW menjawab:
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">JAWABAN NABI MUHAMMAD SAW</div>
+                <div class="arabic-text">
+                    الْجِهَادُ الْأَكْبَرُ جِهَادُ النَّفْسِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Jihad besar adalah jihad melawan hawa nafsu (jihad an-nafs)."
+                </div>
+            </div>
+
+            <p>
+                Hadits ini sering kali menjadi perdebatan di kalangan ulama. Sebagian ulama menganggap hadits ini lemah (dha'if), sementara sebagian ulama lain menganggapnya sahih. Namun, terlepas dari perdebatan status hadits ini, makna yang terkandung di dalamnya sangat mendalam dan relevan dengan kehidupan spiritual seorang Muslim. Konsep jihad an-nafs (jihad melawan hawa nafsu) juga didukung oleh banyak dalil dari Al-Qur'an dan hadits sahih lainnya.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL AL-QUR'AN TENTANG JIHAD AN-NAFS — QS. AL-'ANKABUT: 69</div>
+                <div class="arabic-text">
+                    وَالَّذِينَ جَاهَدُوا فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ اللَّهَ لَمَعَ الْمُحْسِنِينَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Dan orang-orang yang berjihad untuk (mencari keridhaan) Kami, benar-benar akan Kami tunjukkan kepada mereka jalan-jalan Kami. Dan sesungguhnya Allah benar-benar beserta orang-orang yang berbuat baik."
+                    <br>— QS. Al-'Ankabut: 69
+                </div>
+            </div>
+
+            <h2>Pemahaman Syaikh Abdul Qadir Al-Jilani</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani dalam kitabnya <em>"Al-Ghunya li-Thalibi Tariq al-Haqq"</em> menjelaskan tentang konsep jihad kecil dan jihad besar ini dengan sangat mendalam. Beliau membagi jihad menjadi dua kategori utama:
+            </p>
+
+            <div class="jihad-card">
+                <span class="jihad-number">1</span>
+                <span class="jihad-title">Jihad Kecil (الْجِهَادُ الْأَصْغَرُ) — Perjuangan Fisik</span>
+                <div class="jihad-arabic">الْجِهَادُ الْأَصْغَرُ هُوَ الْقِتَالُ فِي سَبِيلِ اللَّهِ</div>
+                <p>
+                    Jihad kecil adalah perjuangan fisik melawan musuh-musuh Islam di medan perang. Ini termasuk berperang untuk membela agama, harta, dan kehormatan umat Islam. Jihad kecil dilakukan dengan senjata dan kekuatan fisik untuk melindungi umat Islam dari serangan musuh.
+                </p>
+            </div>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL JIHAD KECIL — QS. AL-HAJJ: 39</div>
+                <div class="arabic-text">
+                    أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا ۚ وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Telah diizinkan (berperang) bagi orang-orang yang diperangi, karena sesungguhnya mereka telah dianiaya. Dan sesungguhnya Allah, benar-benar Maha Kuasa menolong mereka itu."
+                    <br>— QS. Al-Hajj: 39
+                </div>
+            </div>
+
+            <div class="jihad-card">
+                <span class="jihad-number">2</span>
+                <span class="jihad-title">Jihad Besar (الْجِهَادُ الْأَكْبَرُ) — Perjuangan Spiritual</span>
+                <div class="jihad-arabic">الْجِهَادُ الْأَكْبَرُ هُوَ جِهَادُ النَّفْسِ وَالْهَوَىٰ</div>
+                <p>
+                    Jihad besar adalah perjuangan spiritual melawan hawa nafsu diri sendiri. Ini adalah perjuangan yang lebih sulit dan lebih penting daripada jihad kecil. Jihad besar dilakukan sepanjang hayat seorang Muslim, karena hawa nafsu selalu ada dan senantiasa menggoda.
+                </p>
+            </div>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL JIHAD BESAR — QS. AN-NAZI'AT: 40-41</div>
+                <div class="arabic-text">
+                    وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ ۝ فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Dan adapun orang-orang yang takut kepada kebesaran Tuhannya dan menahan diri dari keinginan hawa nafsunya, maka sesungguhnya surgalah tempat tinggalnya."
+                    <br>— QS. An-Nazi'at: 40-41
+                </div>
+            </div>
+
+            <h2>Empat Musuh Utama dalam Jihad Besar</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani menjelaskan bahwa jihad besar (jihad an-nafs) adalah perjuangan melawan empat musuh utama dalam diri manusia:
+            </p>
+
+            <div class="jihad-card">
+                <span class="jihad-number">1</span>
+                <span class="jihad-title">Hawa Nafsu (النَّفْسُ الْأَمَّارَةُ) — Nafsu yang Menyuruh kepada Kejahatan</span>
+                <div class="jihad-arabic">إِنَّ النَّفْسَ لَأَمَّارَةٌ بِالسُّوءِ</div>
+                <p>
+                    Hawa nafsu adalah musuh terbesar dalam diri manusia. Nafsu selalu menyuruh kepada kejahatan, kesenangan duniawi, dan perbuatan maksiat. Mengalahkan hawa nafsu adalah perjuangan seumur hidup yang memerlukan kesabaran, keistiqomahan, dan pertolongan Allah SWT.
+                </p>
+            </div>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL NAFSU AMMARAH — QS. YUSUF: 53</div>
+                <div class="arabic-text">
+                    إِنَّ النَّفْسَ لَأَمَّارَةٌ بِالسُّوءِ إِلَّا مَا رَحِمَ رَبِّي
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Sesungguhnya nafsu itu selalu menyuruh kepada kejahatan, kecuali nafsu yang diberi rahmat oleh Tuhanku."
+                    <br>— QS. Yusuf: 53
+                </div>
+            </div>
+
+            <div class="jihad-card">
+                <span class="jihad-number">2</span>
+                <span class="jihad-title">Setan (الشَّيْطَانُ) — Godaan dari Luar</span>
+                <div class="jihad-arabic">الشَّيْطَانُ يَدْعُو إِلَىٰ النَّارِ</div>
+                <p>
+                    Setan adalah musuh yang selalu menggoda manusia untuk berbuat maksiat dan menjauhkan diri dari Allah SWT. Setan berbisik-bisik di dalam hati manusia, menghiasai perbuatan maksiat agar terlihat indah, dan membuat manusia lupa kepada Allah.
+                </p>
+            </div>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL TENTANG SETAN — QS. FATIR: 6</div>
+                <div class="arabic-text">
+                    إِنَّ الشَّيْطَانَ لَكُمْ عَدُوٌّ فَاتَّخِذُوهُ عَدُوًّا
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Sesungguhnya syaitan itu adalah musuh bagimu, maka anggaplah ia musuh(mu)."
+                    <br>— QS. Fatir: 6
+                </div>
+            </div>
+
+            <div class="jihad-card">
+                <span class="jihad-number">3</span>
+                <span class="jihad-title">Dunia (الدُّنْيَا) — Cinta Dunia yang Berlebihan</span>
+                <div class="jihad-arabic">حُبُّ الدُّنْيَا رَأْسُ كُلِّ خَطِيئَةٍ</div>
+                <p>
+                    Cinta dunia yang berlebihan adalah salah satu musuh terbesar dalam jihad besar. Ketika seseorang terlalu mencintai dunia, ia akan lupa kepada akhirat dan melakukan segala cara untuk mendapatkan kenikmatan duniawi, bahkan dengan cara yang haram.
+                </p>
+            </div>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL TENTANG CINTA DUNIA — QS. AL-HADID: 20</div>
+                <div class="arabic-text">
+                    اعْلَمُوا أَنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌ بَيْنَكُمْ وَتَكَاثُرٌ فِي الْأَمْوَالِ وَالْأَوْلَادِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ketahuilah, bahwa sesungguhnya kehidupan dunia itu hanyalah permainan dan suatu yang melalaikan, perhiasan dan bermegah-megah antara kamu serta berbangga-bangga tentang banyaknya harta dan anak."
+                    <br>— QS. Al-Hadid: 20
+                </div>
+            </div>
+
+            <div class="jihad-card">
+                <span class="jihad-number">4</span>
+                <span class="jihad-title">Pergaulan yang Buruk (سُوءُ الْأَخْلَاقِ) — Teman yang Tidak Baik</span>
+                <div class="jihad-arabic">الْمَرْءُ عَلَىٰ دِينِ خَلِيلِهِ فَلْيَنْظُرْ أَحَدُكُمْ مَنْ يُخَالِلُ</div>
+                <p>
+                    Pergaulan yang buruk dapat merusak iman dan spiritualitas seseorang. Teman yang tidak baik akan mengajak kepada kemaksiatan, membuat lalai dari dzikir, dan menjauhkan dari jalan Allah SWT.
+                </p>
+            </div>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DALIL TENTANG PERGAULAN — HR. TIRMIDZI</div>
+                <div class="arabic-text">
+                    الْمَرْءُ عَلَىٰ دِينِ خَلِيلِهِ فَلْيَنْظُرْ أَحَدُكُمْ مَنْ يُخَالِلُ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Seseorang itu mengikuti agama teman dekatnya, maka hendaklah salah seorang dari kalian melihat siapa yang ia jadikan teman dekat."
+                    <br>— HR. Tirmidzi
+                </div>
+            </div>
+
+            <h2>Tingkatan Nafs dalam Jihad Besar</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani juga menjelaskan tentang tingkatan-tingkatan nafs (diri) dalam perjalanan spiritual:
+            </p>
+
+            <h3>1. Nafs Ammarah (النَّفْسُ الْأَمَّارَةُ) — Nafsu yang Menyuruh kepada Kejahatan</h3>
+
+            <div class="arabic-box">
+                <div class="arabic-label">NAFS AMMARAH</div>
+                <div class="arabic-text">
+                    إِنَّ النَّفْسَ لَأَمَّارَةٌ بِالسُّوءِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Sesungguhnya nafsu itu selalu menyuruh kepada kejahatan."
+                    <br>— QS. Yusuf: 53
+                </div>
+            </div>
+
+            <p>
+                Ini adalah tingkatan nafs yang paling rendah. Nafs ammarah selalu menyuruh kepada kejahatan, maksiat, dan kesenangan duniawi. Seorang Muslim yang masih berada pada tingkatan ini akan sulit untuk taat kepada Allah dan mudah tergoda oleh godaan setan.
+            </p>
+
+            <h3>2. Nafs Lawwamah (النَّفْسُ اللَّوَّامَةُ) — Nafsu yang Menyesali Diri</h3>
+
+            <div class="arabic-box">
+                <div class="arabic-label">NAFS LAWWAMAH</div>
+                <div class="arabic-text">
+                    وَأُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Dan Aku bersumpah dengan jiwa yang selalu menyesali (dirinya sendiri)."
+                    <br>— QS. Al-Qiyamah: 2
+                </div>
+            </div>
+
+            <p>
+                Ini adalah tingkatan nafs yang lebih tinggi. Nafs lawwamah adalah nafs yang mulai sadar akan dosanya dan menyesali perbuatan maksiat yang telah dilakukan. Orang yang berada pada tingkatan ini akan sering bertaubat dan berusaha untuk memperbaiki diri.
+            </p>
+
+            <h3>3. Nafs Mutmainnah (النَّفْسُ الْمُطْمَئِنَّةُ) — Nafsu yang Tenang</h3>
+
+            <div class="arabic-box">
+                <div class="arabic-label">Nafs Mutmainnah</div>
+                <div class="arabic-text">
+                    يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ ۝ ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَرْضِيَّةً
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Wahai jiwa yang tenang. Kembalilah kepada Tuhanmu dengan hati yang puas lagi diridhai-Nya."
+                    <br>— QS. Al-Fajr: 27-28
+                </div>
+            </div>
+
+            <p>
+                Ini adalah tingkatan nafs yang paling tinggi. Nafs mutmainnah adalah nafs yang telah tenang dan tenteram dalam ketaatan kepada Allah. Orang yang mencapai tingkatan ini akan merasakan kedamaian spiritual yang luar biasa dan senantiasa dekat dengan Allah SWT.
+            </p>
+
+            <h2>Nasihat Syaikh Abdul Qadir Al-Jilani tentang Jihad Besar</h2>
+
+            <p>
+                Syaikh Abdul Qadir Al-Jilani memberikan beberapa nasihat berharga tentang cara melakukan jihad besar (jihad an-nafs):
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">NASIHAT SYAIKH TENTANG JIHAD AN-NAFS</div>
+                <div class="arabic-text">
+                    جَاهِدْ نَفْسَكَ بِمُخَالَفَةِ هَوَاهَا، فَإِنَّ مَنْ غَلَبَ هَوَاهُ فَقَدْ غَلَبَ أَعْدَى أَعْدَائِهِ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Berjihadlah melawan nafsumu dengan menyalahi hawa nafsunya, karena barangsiapa yang mengalahkan hawa nafsunya, maka ia telah mengalahkan musuh yang paling memusuhinya."
+                    <br>— Syaikh Abdul Qadir Al-Jilani
+                </div>
+            </div>
+
+            <p>
+                Beliau juga menekankan pentingnya empat perkara dalam jihad an-nafs:
+            </p>
+
+            <p>
+                <strong>1. Muhasabah (مُحَاسَبَةُ النَّفْسِ) — Introspeksi Diri.</strong> Setiap Muslim harus senantiasa melakukan introspeksi diri untuk mengetahui kekurangan dan kelebihannya.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DOA MUHASABAH</div>
+                <div class="arabic-text">
+                    اللَّهُمَّ أَرِنِي نَفْسِي كَمَا هِيَ، لَا كَمَا أُرِيدُ أَنْ تَكُونَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ya Allah, perlihatkanlah diriku kepadaku sebagaimana adanya, bukan sebagaimana aku ingin ia menjadi."
+                </div>
+            </div>
+
+            <p>
+                <strong>2. Muraqabah (مُرَاقَبَةُ النَّفْسِ) — Merasa Diawasi Allah.</strong> Seorang Muslim harus senantiasa merasa bahwa Allah SWT mengawasinya dalam setiap gerak-geriknya.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DOA MURAQABAH</div>
+                <div class="arabic-text">
+                    اللَّهُمَّ اجْعَلْنِي فِي مُرَاقَبَتِكَ دَائِمًا
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ya Allah, jadikanlah aku senantiasa dalam pengawasan-Mu."
+                </div>
+            </div>
+
+            <p>
+                <strong>3. Mujahadah (مُجَاهَدَةُ النَّفْسِ) — Bersungguh-sungguh Melawan Nafsu.</strong> Seorang Muslim harus bersungguh-sungguh dalam melawan hawa nafsu dengan memperbanyak ibadah dan dzikir.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DOA MUJAHADAH</div>
+                <div class="arabic-text">
+                    اللَّهُمَّ أَعِنِّي عَلَىٰ جِهَادِ نَفْسِي، وَثَبِّتْنِي عَلَىٰ طَاعَتِكَ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ya Allah, bantulah aku dalam berjihad melawan nafsu, dan tetapkanlah aku dalam ketaatan kepada-Mu."
+                </div>
+            </div>
+
+            <p>
+                <strong>4. Mu'atabah (مُعَاتَبَةُ النَّفْسِ) — Menasihati Diri Sendiri.</strong> Seorang Muslim harus senantiasa menasihati dirinya sendiri untuk berbuat baik dan menjauhi kemaksiatan.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-label">DOA MU'ATABAH</div>
+                <div class="arabic-text">
+                    اللَّهُمَّ وَفِّقْنِي لِمَا تُحِبُّ وَتَرْضَىٰ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Ya Allah, berilah aku taufik untuk melakukan apa yang Engkau cintai dan ridhai."
+                </div>
+            </div>
+
+            <h2>Penutup</h2>
+
+            <p>
+                Dari penjelasan Syaikh Abdul Qadir Al-Jilani di atas, dapat disimpulkan bahwa jihad besar (jihad an-nafs) adalah perjuangan seumur hidup yang lebih sulit dan lebih penting daripada jihad kecil. Seorang Muslim yang berhasil mengalahkan hawa nafsunya akan mencapai maqam spiritual yang tinggi dan mendapatkan ridha Allah SWT.
+            </p>
+
+            <p>
+                Semoga kita semua diberikan kekuatan oleh Allah SWT untuk senantiasa berjihad melawan hawa nafsu dan mencapai tingkatan nafs mutmainnah. Aamiin ya Rabbal 'Alamiin.
+            </p>
+
+            <div class="arabic-box">
+                <div class="arabic-text">
+                    وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ ۝ فَإِنَّ الْجَنَّةَ هِيَ الْمَأْوَىٰ
+                </div>
+                <div class="arabic-translation">
+                    <strong>Artinya:</strong> "Dan adapun orang-orang yang takut kepada kebesaran Tuhannya dan menahan diri dari keinginan hawa nafsunya, maka sesungguhnya surgalah tempat tinggalnya."
+                    <br>— QS. An-Nazi'at: 40-41
+                </div>
+            </div>
+
+            <p>
+                Wallahu a'lam bish-shawab. Dan segala puji bagi Allah, Tuhan semesta alam.
+            </p>
+
+        </div>
+
+        <!-- NAVIGASI 2 TOMBOL -->
+        <div class="article-nav">
+            <div class="nav-group">
+                <a href="artikel8.html" class="article-nav-btn active" title="Artikel Utama">1</a>
+                <div class="nav-btn-label">Artikel Utama</div>
+            </div>
+            <div class="nav-group">
+                <a href="artikel8-cabang.html" class="article-nav-btn" title="Artikel Cabang">2</a>
+                <div class="nav-btn-label">Artikel Cabang</div>
+            </div>
+        </div>
+
+        <a href="index.html" class="kalam-back-btn">
+            KALAM
+            <span class="btn-sub">← Kembali ke Beranda</span>
+        </a>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <span>KALAM</span>. Semua hak dilindungi.</p>
+    </footer>
+
+    <script>
+        let currentFontSize = 1.05;
+        function changeFontSize(delta) {
+            currentFontSize += delta * 0.1;
+            if (currentFontSize < 0.8) currentFontSize = 0.8;
+            if (currentFontSize > 1.5) currentFontSize = 1.5;
+            document.getElementById('articleContent').style.fontSize = currentFontSize + 'rem';
+        }
+    </script>
+
+</body>
+</html>
